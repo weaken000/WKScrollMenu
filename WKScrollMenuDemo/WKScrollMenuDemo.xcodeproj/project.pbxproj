@@ -16,6 +16,7 @@
 		04309F9C2141194200E45355 /* WKScrollMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04309F9B2141194200E45355 /* WKScrollMenuDemoTests.m */; };
 		04309FA72141194200E45355 /* WKScrollMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04309FA62141194200E45355 /* WKScrollMenuDemoUITests.m */; };
 		04309FB7214119C900E45355 /* WKScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04309FB5214119C900E45355 /* WKScrollMenuView.m */; };
+		04309FBF21412C8700E45355 /* screenshot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04309FBE21412C8700E45355 /* screenshot.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		04309FA82141194200E45355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04309FB5214119C900E45355 /* WKScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKScrollMenuView.m; sourceTree = "<group>"; };
 		04309FB6214119C900E45355 /* WKScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKScrollMenuView.h; sourceTree = "<group>"; };
+		04309FBE21412C8700E45355 /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		04309F762141193F00E45355 = {
 			isa = PBXGroup;
 			children = (
+				04309FBE21412C8700E45355 /* screenshot.gif */,
 				04309FB4214119C900E45355 /* WKScrollMenu */,
 				04309F812141193F00E45355 /* WKScrollMenuDemo */,
 				04309F9A2141194200E45355 /* WKScrollMenuDemoTests */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04309FBF21412C8700E45355 /* screenshot.gif in Resources */,
 				04309F8F2141194100E45355 /* LaunchScreen.storyboard in Resources */,
 				04309F8C2141194100E45355 /* Assets.xcassets in Resources */,
 				04309F8A2141193F00E45355 /* Main.storyboard in Resources */,
@@ -450,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WKScrollMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WKScrollMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
